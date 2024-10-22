@@ -162,7 +162,7 @@ header {
     height: 20px;
     background: url('/images/lupa.png') no-repeat center center;
     background-size: contain;
-    filter: invert(1); /* Para inverter a cor, se necessário */
+    filter: invert(1); /* Para inverter a cor, se necessario */
 }
 
 .search input:hover, .search input:focus {
@@ -230,26 +230,36 @@ header {
 }
 /* As imagens dentro do banner são centralizadas horizontalmente e têm largura máxima de 700px. */
 
+/*Botoes*/
+
 .swiper .swiper-button-prev {
     position: absolute;
-    width: 60px;
-    height: 60px;
-    top: 50%;
-    left: 60%;
+    width: 50px;
+    height: 50px;
+    top: 65%; /* Move o botão mais para baixo */
+    left: 82%;
     z-index: 100;
-    background-color: red;
+    background-color: transparent; /* Fundo transparente */
+    border-radius: 50%;
+    border: 2px solid rgb(224, 213, 213); /* Borda opcional */
+    transform: translateY(-50%);
 }
-/* O botão anterior do swiper está posicionado com largura e altura de 60px, no centro vertical e com fundo vermelho. */
 
 .swiper .swiper-button-next {
     position: absolute;
-    right: 70%;
-    top: 50%;
-    width: 60px;
-    height: 60px;
+    right: 10%;
+    top: 65%; /* Move o botão mais para baixo */
+    width: 50px;
+    height: 50px;
     z-index: 100;
-    background-color: blue;
+    background-color: transparent; /* Fundo transparente */
+    border-radius: 50%;
+    border: 2px solid rgb(224, 213, 213); /* Borda opcional */
+    transform: translateY(-50%);
 }
+
+
+
 /* O botão próximo do swiper está posicionado com largura e altura de 60px, no centro vertical e com fundo azul. */
 
 .swiper .swiper-button-next::after,
@@ -257,9 +267,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgba(255, 255, 255, 0.5);
-    width: 60px;
-    height: 60px;
+    color: rgb(224, 213, 213);
+    width: 30px;
+    height: 30px;
     line-height: 0;
     background: transparent;
     border-radius: 50%;
