@@ -310,6 +310,7 @@ header {
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 25px;
+   
 }
 /* A seção de avaliação à esquerda tem texto branco, usa layout flexível para alinhar horizontalmente o conteúdo e tem uma margem inferior de 25px. */
 
@@ -319,6 +320,7 @@ header {
     font-weight: 400;
     color: var(--primary);
     background: #ffffff;
+    border-radius: 8px; 
 }
 /* A nota de avaliação (score) tem padding de 15px, fonte grande (2rem), cor vermelha e fundo branco. */
 
@@ -330,6 +332,56 @@ header {
     align-items: center;
 }
 /* O conteúdo de recursos tem uma margem à esquerda de 20px e é exibido em uma coluna flexível. */
+
+/*caixa com preço*/
+
+.pricing {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+
+.square-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px; /* Mesma configuração de padding */
+    background-color: red; /* Fundo vermelho */
+    color: white; /* Cor do texto */
+    font-size: 2rem; /* Tamanho da fonte */
+    font-weight: 400; /* Peso da fonte */
+    margin-right: 10px; /* Espaço entre o botão e o restante do conteúdo */
+    border-radius: 8px; /* Cantos arredondados */
+    width: 25%; /* Define a largura como 50% do elemento pai */
+    cursor: pointer;
+}
+
+.square-button:hover {
+    transform: rotate(540deg) scale(1.2);
+    transition: transform 0.5s ease;
+}
+
+
+/* Estilização para a seção de conteúdo */
+.pricing .content {
+    color: #ffffff;
+}
+
+.pricing .content .subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.pricing h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+
 
 .banner .left .features .pricing {
     color: #ffffff;
@@ -350,6 +402,7 @@ header {
 
 .zelda {
     font-family: 'TheWildBreathOfZelda', sans-serif;
+    
 }
 
 .banner .left .features .content h4 {
