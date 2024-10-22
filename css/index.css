@@ -1,3 +1,5 @@
+@import url('font.css');
+
 * {
     margin: 0;
     padding: 0;
@@ -335,7 +337,20 @@ header {
     justify-content: flex-start;
     align-items: center;
 }
+
 /* A seção de preços é exibida com texto branco e layout flexível para alinhamento horizontal. */
+
+.mario {
+    font-family: 'SuperMarioBros', sans-serif;
+}
+
+.pokemon-title {
+    font-family: 'PokemonHollow', sans-serif;
+}
+
+.zelda {
+    font-family: 'TheWildBreathOfZelda', sans-serif;
+}
 
 .banner .left .features .content h4 {
     color: #ffffff;

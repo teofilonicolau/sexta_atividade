@@ -1,0 +1,47 @@
+/* Definindo a fonte Ketchum Italic */
+@font-face {
+    font-family: 'KetchumItalic';
+    src: url('/fonts/Ketchum\ Italic.otf');
+}
+
+/* Definindo a fonte Ketchum */
+@font-face {
+    font-family: 'Ketchum';
+    src: url('/fonts/Ketchum.otf') format('opentype');
+}
+
+/* Definindo a fonte Legend Of Zelda TriFont */
+@font-face {
+    font-family: 'LegendOfZeldaTriFont';
+    src: url('/fonts/Legend\ Of\ Zelda\ TriFont.ttf') format('truetype');
+}
+
+/* Definindo a fonte Pokemon Hollow */
+@font-face {
+    font-family: 'PokemonHollow';
+    src: url('/fonts/Pokemon\ Hollow.ttf') format('truetype');
+}
+
+/* Definindo a fonte Pokemon Solid */
+@font-face {
+    font-family: 'PokemonSolid';
+    src: url('/fonts/Pokemon\ Solid.ttf') format('truetype');
+}
+
+/* Definindo a fonte Super Mario Bros */
+@font-face {
+    font-family: 'SuperMarioBros';
+    src: url('/fonts/Super\ Mario\ Bros..ttf') format('truetype');
+}
+
+/* Definindo a fonte SuperMario256 */
+@font-face {
+    font-family: 'SuperMario256';
+    src: url('/fonts/SuperMario256.ttf') format('truetype');
+}
+
+/* Definindo a fonte The Wild Breath of Zelda */
+@font-face {
+    font-family: 'TheWildBreathOfZelda';
+    src: url('/fonts/The\ Wild\ Breath\ of\ Zelda.otf') format('opentype');
+}
