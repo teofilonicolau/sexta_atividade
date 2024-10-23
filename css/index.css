@@ -1,4 +1,6 @@
 @import url('font.css');
+@import url('responsive.css');
+@import url('hamburguer.css');
 
 * {
     margin: 0;
@@ -40,23 +42,22 @@ cor de fundo preta, usa a fonte 'Roboto', ocupa 100% da
 largura e tem altura mínima de 100vh, com overflow oculto. */
 
 
+
 header {
     position: absolute;
-    /*position: sticky;*/ 
     top: 0;
     left: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-   /* padding: 20px 100px;*/
-   padding: 1rem;
+    padding: 1rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     z-index: 20;
 }
+
 main {
-    flex: 1; /* Faz com que o main ocupe o espaço restante da tela */
-    /*padding: 1rem;*/
+    flex: 1;
     width: 100%;
 }
 
@@ -186,7 +187,8 @@ footer {
     color: #ffffff;
     text-transform: uppercase;
     transform: translateX(5px);
-    font-weight: 300;
+    /*font-weight: 300;*/
+    font-weight: bold;
 }
 /* O placeholder do campo de busca é branco, em maiúsculas, com espaçamento à esquerda e peso de fonte leve. */
 
