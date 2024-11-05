@@ -1,6 +1,7 @@
 @import url('font.css');
 @import url('responsive.css');
 @import url('hamburguer.css');
+@import url('modal.css');
 
 * {
     margin: 0;
