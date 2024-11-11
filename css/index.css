@@ -224,9 +224,14 @@ footer {
 }
 /* O contêiner dos slides no swiper tem largura e altura totais, sem margens ou preenchimentos. */
 
-.swiper .swiper-wrapper .swiper-slide {
+/*.swiper .swiper-wrapper .swiper-slide {
     width: 100%;
     height: 100%;
+}*/
+
+.swiper .swiper-wrapper .swiper-slide {
+    width: 100%;
+    height: auto; /* A altura será ajustada automaticamente conforme o conteúdo */
 }
 /* Cada slide no swiper ocupa toda a largura e altura disponíveis. */
 
@@ -317,13 +322,13 @@ footer {
     border-radius: 50%;
 }
 /* Os ícones dentro dos botões anterior e próximo estão centralizados, com cor semitransparente, largura e altura de 60px, e bordas arredondadas. */
-
 .right {
     max-height: 70vh;
 }
 /* Define a altura máxima de 70% da viewport para os elementos com a classe 'right'. */
 
-.banner img {
+.ba
+nner img {
     max-width: 790px;
     max-height: 790px;
     width: 50%;
