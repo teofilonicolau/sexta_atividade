@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
 })
 
 // MENU HAMBURGUER
-class MobileNavBar {
+/*class MobileNavBar {
     constructor(mobileMenu, navList, navLinks) {
         this.mobileMenu = document.querySelector(mobileMenu);
         this.navList = document.querySelector(navList);  // Atualizado para .nav
@@ -56,3 +56,15 @@ const mobileNavBar = new MobileNavBar(
 );
 
 mobileNavBar.init();
+*/
+
+// Obtendo os elementos do menu hambúrguer e da sidebar
+const mobileMenu = document.querySelector('.mobile-menu');
+const sidebar = document.querySelector('.sidebar');
+
+// Quando o menu hambúrguer for clicado
+mobileMenu.addEventListener('click', () => {
+    // Abre/fecha o sidebar e aplica animação no menu hambúrguer
+    sidebar.classList.toggle('active');  // Adiciona ou remove a classe 'active' na sidebar
+    mobileMenu.classList.toggle('active'); // Aplica a animação no hambúrguer
+});

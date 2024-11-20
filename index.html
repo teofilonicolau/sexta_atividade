@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <!-- Define o tipo de documento como HTML5 e define o idioma da página como inglês -->
@@ -15,20 +16,24 @@
 </head>
 
 <body>
-    <header>
+    <header >
         <!-- Cabeçalho da página -->
         <a href="#" class="logo">
             <img src="images/nintendo-switch.png" alt="Nintendo Switch Logo" height="240" width="240" />
         </a>
 
-        <section class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </section>
+        <div class="mobile-menu">
+            
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+        </div>
+                
+        
 
-        <nav>
-            <ul class="nav">
+       
+        <nav >
+            <ul class="nav ">
                 <li><a href="https://www.nintendo.com/us/whatsnew/" target="_blank">Switch News</a></li>
                 <li><a href="https://www.nintendo.com/pt-br/switch/online/" target="_blank">Switch Online</a></li>
                 <li><a href="https://www.nintendo.com/us/switch/online/nintendo-switch-online/classic-games/" target="_blank">Switch Classic</a></li>
@@ -43,6 +48,25 @@
         <div class="search">
             <input type="text" id="gameInput" placeholder="Search ">
         </div>
+
+        <!-- Sidebar -->
+    <div class="sidebar">
+        <ul>
+            <li><a href="https://www.nintendo.com/us/whatsnew/" target="_blank">Switch News</a></li>
+            <li><a href="https://www.nintendo.com/pt-br/switch/online/" target="_blank">Switch Online</a></li>
+            <li><a href="https://www.nintendo.com/us/switch/online/nintendo-switch-online/classic-games/" target="_blank">Switch Classic</a></li>
+        </ul>
+
+        <div   class="login">
+            <button class="button" onclick="validateEmail()">Login</button>
+            <input type="email" id="emailInput" class="logar" placeholder="Enter your email">
+        </div>
+
+        <div class="search">
+            <input type="text" id="gameInput" placeholder="Search ">
+        </div>
+    </div>
+    
     </header>
 
     <main>
