@@ -29,7 +29,9 @@ Este projeto tem como objetivo aprimorar uma landing page existente, implementan
 
 6. **Fontes Customizadas**: Adição de fontes personalizadas para melhorar a estética visual da página. Foram utilizadas fontes modernas e compatíveis com o tema da landing page, como Google Fonts.
 
-7. **Testes e Validação**: A página foi testada em diferentes navegadores e dispositivos para garantir que todas as funcionalidades, como o carrossel, modais, links, e responsividade estejam funcionando conforme esperado.(Em implementação)
+7. **Testes e Validação**: A página foi testada em diferentes navegadores e dispositivos para garantir que todas as funcionalidades, como o carrossel, modais, links, e responsividade estejam funcionando conforme esperado.
+   
+ 
 
 ## Como Usar
 
